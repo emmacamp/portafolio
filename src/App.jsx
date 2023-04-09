@@ -17,7 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/portafolio" element={<Home />} />
-          <Route path='*' element={<h1 className='text-center text-9xl'>Not Found</h1>} />
+          <Route path='*' element={<Home />} />
         </Routes>
 
       </BrowserRouter>
