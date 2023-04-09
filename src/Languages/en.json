@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "links": [
+      {
+        "text": "About",
+        "url": "/"
+      },
+      {
+        "text": "Projects",
+        "url": "/projects"
+      },
+      {
+        "text": "Contact",
+        "url": "/contact"
+      }
+    ]
+  },
+  "header": {
+    "quote": {
+      "text": " “First solve the problem, then",
+      "textBlue": "type the code”",
+      "author": "John Johnson"
+    },
+    "button": {
+      "text": "Download CV",
+      "url": "contact.html"
+    }
+  },
+  "education": {
+    "title": "Education",
+    "subTitle": "Bootcamps and more",
+    "cards": [
+      {
+        "date": "Jenuary 2019 - Present",
+        "title": "self-taught",
+        "text": "I'm a person who loves learning new technologies and doing projects with said technologies."
+      },
+      {
+        "date": "June 2020 - June 2021",
+        "title": "Platzi",
+        "text": "I do the web development school in this platform, where learned Fundamentals HTML, CSS, Javascript also React and Node"
+      },
+      {
+        "date": "Jenuary 2021 - September 2023",
+        "title": "ITLA",
+        "text": "It's the most prestigious institute in my country in terms of technology and here I took the software development technology"
+      },
+      {
+        "date": "September 2021 - Febrary 2022",
+        "title": "FreeCodeCamp",
+        "text": "I decided to take a few bootcamps on this platform because of its prestige and took Web Responsive Design, Javascript Algorithms and Data Structures and Backend Development and Apis"
+      }
+    ]
+  }
+}

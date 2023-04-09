@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "links": [
+      {
+        "text": "Sobre mi",
+        "url": "/"
+      },
+      {
+        "text": "Proyectos",
+        "url": "/about"
+      },
+      {
+        "text": "Contacto",
+        "url": "/contact"
+      }
+    ]
+  },
+  "header": {
+    "quote": {
+      "text": " “Primero resuelve el problema, después",
+      "textBlue": "escribe el código”",
+      "author": "John Johnson"
+    },
+    "button": {
+      "text": "Descargar CV",
+      "url": "contact.html"
+    }
+  },
+  "education": {
+    "title": "Educación",
+    "subTitle": "Bootcamps y mas",
+    "cards": [
+      {
+        "title": "self-taught",
+        "date": "Enero 2019 - Presente",
+        "text": "Soy autodidacta, aprendo de todo y de todos, me gusta aprender y compartir lo que aprendo."
+      },
+      {
+        "title": "Platzi",
+        "date": "Junio 2020 - Junio 2021",
+        "text": "Realice la escuela de desarrollo web en esta plataforma, donde aprendí Fundamentos HTML, CSS, Javascript también React y Node."
+      },
+      {
+        "title": "ITLA",
+        "date": "Enero 2021 - Septiembre 2023",
+        "text": "Es el instituto más prestigioso de mi país en cuanto a tecnología y ahí tomé la tecnología de desarrollo de software."
+      },
+      {
+        "title": "FreeCodeCamp",
+        "date": "Septiembre 2021 - Febrero 2022",
+        "text": "Decidí tomar algunos bootcamps en esta plataforma debido a su prestigio y tomé Web Responsive Design, Javascript Algorithms and Data Structures y Backend Development and Apis."
+      }
+    ]
+  }
+}

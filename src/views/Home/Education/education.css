@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* @media screen and (width: 1280) {
+    .card-component {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+
+} */
