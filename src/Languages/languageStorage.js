@@ -8,7 +8,10 @@ export const useLanguage = () => {
     const setLanguageStorage = async (language) => {
         localStorage.setItem('language', language)
         const lan = localStorage.getItem('language')
-        if (lan === 'es') {
+        if (lan === 'en') {
+            setLanguage(EN)
+        }
+        else {
             setLanguage(ES)
         }
     }

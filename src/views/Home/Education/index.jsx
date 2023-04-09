@@ -7,7 +7,8 @@ import { useLanguage } from '../../../Languages/languageStorage';
 
 export const Education = () => {
 
-    const { language: { education } } = useLanguage()
+    const { language: { education } } = useLanguage();
+
 
     const icons = {
         0: <BookIcon className=" text-white" />,

@@ -37,7 +37,6 @@ export const NavBar = () => {
             <nav className=" text-xl mx-auto shadow text-center flex justify-between items-center px-4 py-2 mt-3 rounded-lg bg-white dark:bg-slate-800 dark:border-slate-500 dark:text-slate-50">
                 <span className="font-bold ">POPA<span className="palo" >/</span>DEV</span>
                 <div className="flex">
-
                     <ul className="text-[15px] flex font-semibold justify-center dark:text-slate-400 items-center gap-2 ">
                         {
                             nav.links.map((item, index) => (
@@ -49,13 +48,27 @@ export const NavBar = () => {
                     </ul>
 
 
-
                     <button
-                        className="ml-4 "
-                        onClick={hanleLanguage}
+                        className="ml-4 flex items-center justify-center h-10 w-10 rounded hover:bg-gray-200 dark:hover:bg-slate-600"
+                        onClick={() => (
+                            <>
+                                {/* select */}
+                                <select className="
+                               
+                                " onChange={hanleLanguage}
+
+                                >
+                                    <option value="en">English</option>
+                                    <option value="es">Español</option>
+                                </select>
+                                {/* select */}
+
+                            </>
+                        )}
 
                     >
                         <LaguagueIcon className="h-6 w-6" />
+
                     </button>
 
                     <button
@@ -63,8 +76,11 @@ export const NavBar = () => {
                         onClick={hanleDarkMode}
 
                     >{icon}</button>
+
                 </div>
             </nav >
+
+
         </>
     )
 }
